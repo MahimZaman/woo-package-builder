@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+
+.wpb-uploaded-docs li{
+    display: flex ;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.wpb-table-title {
+    background: rgba(30, 139, 195, 0.3);
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+.wpb-uploaded-item {
+    padding: 10px 20px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #202020;
+    border-bottom: 1px solid rgba(0,0,0,0,0.1);
+    margin-bottom: 0;
+}
+
+.wpb-uploaded-item:nth-child(2n-1) {
+    background: #eee;
+}
+
+.wpb-container > h1{
+    text-align: center ;
+    font-family: 'Raleway';
+    margin: 30px 0 0px 0;
+}
+
+.wpb-settings-table{
+    font-family: 'Raleway'
+}

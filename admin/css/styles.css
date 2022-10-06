@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Dosis', sans-serif; */
+
+:root{
+    --text-grey: #5C5851;
+    --text-black: #181614;
+    --light-blue : #3EA5A6 ;
+}
+
+.wpb-document-table td{
+    padding: 10px 0;
+    min-width: 250px ;
+}
+
+.wpb-container table span,
+.wpb-container table h1,
+.wpb-container table h2,
+.wpb-container table h3,
+.wpb-container table h4,
+.wpb-container table h5,
+.wpb-container table h6,
+.wpb-container table p,
+.wpb-container table a ,
+.wpb-container table button {
+    font-family: 'Poppins'
+}
+
+h2.wpb-order-subtitle {
+    font-size: 16px !important;
+    line-height: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: var(--text-grey);
+    margin: 0 ;
+}
+
+.wpb-order-section {
+    margin-bottom: 34.5px;
+}
+
+.wpb-order-status{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Valky';
+    background: #D17D2630 ;
+    color: #D17D26 ;
+    padding: 10px 25px;
+    border-radius: 5px ; 
+}
+
+.wpb-order-title {
+    font-size: 25px;
+    color: var(--text-black);
+    font-weight: 600;
+    margin: 30px 0;
+    font-family: "Valky";
+}
+
+.wpb-order-listitem {
+    font-family: 'Dosis', sans-serif;
+    color: var(--text-grey);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.wpb-order-documents > h2 {
+    font-size: 25px !important;
+    line-height: 34px;
+    font-family: 'Valky';
+    font-weight: 600;
+    border-top: 1px solid #707070;
+    margin-top: 34.5px;
+    padding-top: 34.5px;
+    margin-bottom: 22px;
+    color: var(--text-black);
+}
+
+table.wpb-document-table {
+    font-size: 16px;
+    font-family: 'Dosis';
+    line-height: 20px;
+}
+
+table.wpb-document-table thead{
+    color: var(--text-grey);
+}
+
+.wpb-document-table tbody{
+    color: var(--text-black);
+}
+
+.wpb_download-date{
+    color:var(--text-grey);
+}
+
+.wpb_download-link a{
+    color: var(--light-blue);
+    font-size: 14px;
+    font-family: 'Valky';
+    font-weight: 600 ;
+    background-color: #D8EDED;
+    padding: 10px 30px ;
+    text-decoration: none;
+    border-radius: 3px ;
+}
+
+.wpb-order-documents {
+    border-bottom: 1px solid #707070;
+    margin-bottom: 34.5px;
+    padding-bottom: 24.5px;
+}
+
+.wpb_upload_input{
+    display: none ;
+}
+
+
+.wpb_upload_btn{
+    font-size: 16px ;
+    font-family: 'Valky';
+    font-weight: 600 ;
+    background: #D17D26 ;
+    color: #fff ;
+    border-radius: 3px ;
+    padding: 10px 20px ;
+    outline: none ;
+    border: none ;
+    cursor: pointer;
+}
+
+.wpb_uploaded_table{
+    padding: 24.5px 0;
+    border-bottom: 1px solid #707070;
+}
+
+.wpb_address-section{
+    display: flex ;
+    align-items: flex-start ;
+    gap: 50px ;
+    flex-wrap : wrap ;
+}
+
+.wpb_address_details {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--text-grey);
+    font-family: 'DOSIS';
+    font-size: 16px;
+    line-height: 20px;
+}
